@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e0e8cd1bff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/animation.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Quiz</a>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <section class="container">
+      <section class="quiz-sec">
+        <section class="question-container">
+          <section class="left-side">
+            <img class="question-img" src="img/question.png" alt="question" />
+          </section>
+          <section class="mid-side">
+            <section class="question-header">
+              Where would you be if you were standing on the Spanish Steps?
+            </section>
+            <section class="answer-sec">
+              <!--- <fieldset id="answer">
+                            <section class="answeres">
+                                <section class="answer-num">A</section>
+                                <section class="answer-data">Spanish</section>
+                            </section>
+                            <section class="answeres">
+                                <section class="answer-num">B</section>
+                                <section class="answer-data">Spanish</section>
+                            </section>
+                            <section class="answeres">
+                                <section class="answer-num">C</section>
+                                <section class="answer-data">Spanish</section>
+                            </section>
+                            <section class="answeres">
+                                <section class="answer-num">D</section>
+                                <section class="answer-data">Spanish</section>
+                            </section>
+                        </fieldset>-->
+            </section>
+            <section class="button-sec">
+              <button class="next-button">
+                next question
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <button class="submit-button">
+                See Your Result
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </section>
+
+            <section class="question-total">1 of 10 Question</section>
+          </section>
+        </section>
+      </section>
+      <section class="hero-sec">
+        <section class="hero-data">
+          <p>Challenge Your Knowledge with Quiz Game!</p>
+          <section class="hero-button">
+            <button class="leader-board">Leader board</button>
+            <button class="start-btn">Start Quiz</button>
+          </section>
+        </section>
+
+        <section class="hero-image">
+          <img src="/img/undraw_Questions_re_1fy7.png" class="hero-img" />
+        </section>
+      </section>
+    </section>
+    <div class="loadingresult">
+      <img src="img/loading.gif" alt="loading" />
+    </div>
+    <section class="result-box">
+      <h2>Your Result is there</h2>
+      <section class="percentage-container">
+        <section class="circular-progress">
+          <span class="Progress-value">0%</span>
+        </section>
+        <span class="score-text">Your Score 0 out of 10</span>
+      </section>
+      <section class="buttons">
+        <button class="leader-board">leader board</button>
+        <button class="goHome-btn">
+          <a href="./index.html">Go To Home</a>
+        </button>
+      </section>
+    </section>
+
+    <section class="leader-board-alert">
+      <h2>high score</h2>
+      <hr />
+      <ol id="resultStorge"></ol>
+    </section>
+    <section class="enter-name">
+      <h3>Enter your Name, please!</h3>
+      <input type="text" name="" id="name-input" required />
+      <p id="error-message"></p>
+      <section class="alert-btn">
+        <button class="continue">continue</button>
+        <button class="exit">Exit</button>
+      </section>
+    </section>
+
+    <footer></footer>
+    <script src="/main.js"></script>
+  </body>
+</html>
